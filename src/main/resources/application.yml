@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/orderdetails
+    username: narendar
+    password: narendar
+    testWhileIdle: true
+    validationQuery: SELECT 1
+
+#spring:
+#  datasource:
+#    url: jdbc:db2://mydb2host:50000/orderdetails
+#    username: narendar
+#    password: narendar
